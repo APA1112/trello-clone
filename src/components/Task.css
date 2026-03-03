@@ -1,16 +1,21 @@
-.task{
-    background-color: antiquewhite;
-    border-radius: 5px;
+.task {
+    background-color: #000000;
+    color: #ffffee;
+    border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px 1px 4px;
-    width: 100%;
-    padding: 10px;
+    width: 100%; 
+    box-sizing: border-box; /* Asegura que el padding no rompa el ancho */
+    padding: 1.2rem; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 1rem;
     touch-action: none;
+    cursor: grab;
 }
-.checkbox{
-    height: 20px;
-    width: 20px;
+
+.task:active {
+    cursor: grabbing;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transform: scale(1.05); /* Se hace un poquito más grande */
 }
