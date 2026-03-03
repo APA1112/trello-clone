@@ -1,0 +1,12 @@
+{
+  "todo": [
+    { "id": "task-1", "name": "Aprender TypeScript" },
+    { "id": "task-2", "name": "Configurar dnd-kit" }
+  ],
+  "doing": [
+    { "id": "task-3", "name": "Diseñar el Board" }
+  ],
+  "done": [
+    { "id": "task-4", "name": "Instalar React" }
+  ]
+}
